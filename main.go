@@ -708,9 +708,9 @@ func (m model) View() string {
 				money(m.results[m.activeTab].ExpectedFET)),
 		)
 	} else if m.activeTab == tabParts {
-		rightLines = append(rightLines, "Expected FET:           N/A (no FET on parts)")
+		rightLines = append(rightLines, "REMINDER:           No FET on parts")
 	} else {
-		rightLines = append(rightLines, "Expected FET:           N/A (no FET on barrels)")
+		rightLines = append(rightLines, "REMINDER:           No FET on barrels")
 	}
 
 	rightLines = append(rightLines,
